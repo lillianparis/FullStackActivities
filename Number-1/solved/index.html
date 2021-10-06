@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../d3.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<!-- Basic Template -->
+<body>
+<!-- Lets Display this 'Hello World!' to the page -->
+<div>
+    Hello World!
+</div>
+<!-- Lets add color to this line of text -->
+<h2 class = "myClass">
+    Good Afternoon
+</h2>
+
+<h3>
+    Good Night
+</h3>
+
+<script>
+d3.select("div").text();
+// Lets change the text to red
+d3.select(".myClass").attr("style", "color: red");
+d3.select("h3").text();
+</script>
+
+</body>
+</html>
