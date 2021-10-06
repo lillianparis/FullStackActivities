@@ -1,3 +1,3 @@
-# datavisualization
+# Data Visualization
 
-Welcome!
+Welcome to a solved and unsolved Data Visualization repository
