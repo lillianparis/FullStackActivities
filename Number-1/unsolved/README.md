@@ -1,6 +1,7 @@
 # Number-1
 
-- This is a starter activity for the introduction of D3. 
+- This activity will cover Enviroment Setup and SOM selection
+
 - Students will create a <div>, <h2>, and <h3> tag. 
 - Each tag will have instructions on what text to place inside of them
 - Once the three tags are created, students will insert some D3 into the <script> tag
