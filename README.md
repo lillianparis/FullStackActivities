@@ -11,3 +11,9 @@ Welcome to a solved and unsolved Data Visualization repository
 - Number-1: Enviroment Setup and DOM Selection
 - Number-2: DOM manipulation and Method Chaining
 
+
+## Liscence 
+
+MIT License
+Copyright (c) 2021 Lilli
+
