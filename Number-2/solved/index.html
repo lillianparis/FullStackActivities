@@ -7,23 +7,14 @@
 <!-- Basic Template -->
 <body>
 <!-- Lets Display this 'Hello World!' to the page -->
-<div>
-    Hello World!
-</div>
-<!-- Lets add color to this line of text -->
-<h2 class = "myClass">
-    Good Afternoon
-</h2>
+var bodyElement = d3.select("body");
 
-<h3>
-    Good Night
-</h3>
+var paragraph = bodyElement.append("p");
+
+paragraph.text("Hello World!");
 
 <script>
-d3.select("div").text();
-// Lets change the text to red
-d3.select(".myClass").attr("style", "color: red");
-d3.select("h3").text();
+// D3 goes here
 </script>
 
 </body>
