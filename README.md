@@ -43,6 +43,11 @@ Welcome to a solved and unsolved Data Visualization Activity Repository
 - Method Chaining: Involves multiple method calls, allowing the calls to be chained together into a single statement 
 - SVG: Scalable Vector Graph. Provides options to draw different shapes such as lines, rectangles, circles, ect.. Gives you more power and flexibility
 
+#### Resources
+
+- https://livebook.manning.com/book/d3js-in-action-second-edition/chapter-3/161
+- https://www.tutorialsteacher.com/d3js/what-is-d3js
+
 
 
 ## Liscence 
