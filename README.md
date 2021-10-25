@@ -48,6 +48,7 @@
 
 - https://livebook.manning.com/book/d3js-in-action-second-edition/chapter-3/161
 - https://www.tutorialsteacher.com/d3js/what-is-d3js
+- https://subscription.packtpub.com/book/web_development/9781782162162/4/ch04lvl1sec28/using-quantitative-scales
 
 
 
