@@ -13,7 +13,7 @@ Welcome to a solved and unsolved Data Visualization Activity Repository
 
 - Number-1: Enviroment Setup and DOM Selection
 - Number-2: DOM manipulation and Method Chaining
-- Number-3: Event Handling
+- Number-3: Hover Effects and Tooltips
 - Number-4: Create an SVG Element
 - Number-5: Set a Domain and Range on a Scale
 - Number-6: Scales
