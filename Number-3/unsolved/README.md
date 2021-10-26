@@ -1,3 +1,3 @@
 # Number-3
 
-- Event Handling
+- Hover Effects and Tooltips
