@@ -13,3 +13,5 @@ svg.append("rect")
         .attr("y", 0)
         .attr("width", 200)
         .attr("height", 100)
+
+d3.selectAll("rect").style('fill', 'blue')
