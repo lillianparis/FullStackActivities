@@ -12,3 +12,5 @@ svg.append("circle")
    .attr("cx", 250)
    .attr("cy", 50)
    .attr("r", 50)
+
+   d3.selectAll("circle").style('fill', 'blue')
