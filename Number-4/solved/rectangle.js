@@ -1,3 +1,4 @@
+// Rectangle
 const width = 500;
 const height = 500;
 
@@ -15,3 +16,4 @@ svg.append("rect")
         .attr("height", 100)
 
 d3.selectAll("rect").style('fill', 'blue')
+
