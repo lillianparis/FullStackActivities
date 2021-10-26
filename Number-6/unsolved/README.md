@@ -8,6 +8,8 @@
 
 ## Scales
 
+- 
+
 ### What are Scales?
 
 - Scales help you perform this kind of mapping. Scales are not only used for mapping but they also serve as fundamental building blocks for other D3 constructs. For example, transitions and axes.
