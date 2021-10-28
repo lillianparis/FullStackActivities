@@ -9,3 +9,14 @@ const linearScale = d3.scaleLinear()
 const myData = [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10];
 
 d3.select('#wrapper')
+.selectAll('circle')
+.data(myData)
+.enter()
+.append('circle')
+.attr('r', 10)
+.attr('cx', function (d) {
+    return xScale(d);
+})
+.style('fill', function(d) {
+    return linearScale(d)
+});
