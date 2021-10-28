@@ -16,8 +16,8 @@
 - Number-2: DOM manipulation and Method Chaining
 - Number-3: Hover Effects and Tooltips
 - Number-4: Create an SVG Element
-- Number-5: Set a Domain and Range on a Scale
-- Number-6: Scales
+- Number-5: Scales
+- Number-6: Set a Domain and Range on a Scale
 
 ## Instructions
 
