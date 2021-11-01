@@ -13,3 +13,5 @@
 ### What are Scales?
 
 - Scales help you perform this kind of mapping. Scales are not only used for mapping but they also serve as fundamental building blocks for other D3 constructs. For example, transitions and axes.
+- They're typically used to transform (or 'map') data values into visual variables (such as position, length and color).
+- There are 12 different scale types. They are divided into three groups. (Scales with continuous input and continuous output, input and discret output, discrete input and discrete output). 
