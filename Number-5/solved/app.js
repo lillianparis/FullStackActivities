@@ -1,22 +1,20 @@
-const xScale = d3.scaleLinear()
-.domain([-10, 10])
-.range([0, 600]);
-
 const linearScale = d3.scaleLinear()
-.domain([-10, 0, 10])
-.range(['red', '#ddd', 'blue']);
+	.domain([0, 100])
+	.range([0, 700]);
 
-const myData = [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10];
+const sqrtScale = d3.scaleSqrt()
+	.domain([0, 100])
+	.range([0, 30]);
+
+const myData = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 d3.select('#wrapper')
-.selectAll('circle')
-.data(myData)
-.enter()
-.append('circle')
-.attr('r', 10)
-.attr('cx', function (d) {
-    return xScale(d);
-})
-.style('fill', function(d) {
-    return linearScale(d)
-});
+	.selectAll('circle')
+	.data(myData)
+	.join('circle')
+	.attr('r', function(d) {
+		return sqrtScale(d);
+	})
+	.attr('cx', function(d) {
+		return linearScale(d);
+	});
