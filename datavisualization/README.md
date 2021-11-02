@@ -1,8 +1,5 @@
 # Data Visualization
 
-![image](https://user-images.githubusercontent.com/62733242/137766352-ba4a2225-f65f-4677-a53d-1fbe2020297e.png)
-
-
 ### Welcome to a solved and unsolved Data Visualization Activity Repository
 
 
