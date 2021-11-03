@@ -1,0 +1,36 @@
+/* Give the body background color */
+body {
+background-color: #FFE4C4; 
+}
+
+/* Give the header some background color */
+/* Align the text */
+/* Set a font size */
+/* Add some padding to make it bigger */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #4b99bd;
+    color: rgb(7, 1, 1);
+    font-size: 30px;
+  }
+
+
+/* Make 3 columns to hold kitty picture, h1 and h2 */
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+/* Makes the second row appear underneath the first row */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Change card background color */
+  .card {
+background-color: #5e9ebb;
+
+  }
