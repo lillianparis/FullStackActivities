@@ -29,11 +29,14 @@ background-color: #FFE4C4;
     clear: both;
   }
 
-  /* Change card background color */
+  /* Change card background color for the kitty*/
   .card {
 background-color: #5e9ebb;
 
   }
+
+  /* h4 or #helloworld can be used.  */
+  /* change font color and font family */
 
 #helloworld {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
