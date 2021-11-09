@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+
+.header {
+    background-color: red;
+
+}
+
+.head {
+    text-align: center;
+}
+
+.catpic {
+height: 200px;
+width: 200px;
+}
+
+.button2 {
+    color: violet;
+    background-color: yellow;
+    border-color: tomato;
+    padding: 10px;
+}
+
+#helloworld {
+    font-family: monospace;
+    color: orange;
+}
