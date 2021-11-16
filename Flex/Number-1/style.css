@@ -8,7 +8,40 @@ justify-content: start;
     justify-content: space-around;
 }
 
-.container-1 div, .container-2 div{
+.container-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-4 {
+    display:flex;
+    justify-content: start;
+    }
+
+.container-5 {
+        display:flex;
+        justify-content: start;
+        }
+
+.container-6 {
+            display:flex;
+            justify-content: start;
+            }
+.container-7 {
+                display:flex;
+                justify-content: start;
+                }
+
+.container-8 {
+                    display:flex;
+                    justify-content: start;
+                    }
+      
+.container-9 {
+                 display:flex;
+                        justify-content: start;
+                        }              
+.container-1 div, .container-2 div, .container-3 div, .container-4 div, .container-5 div, .container-6 div, .container-7 div, .container-8 div, .container-9 div{
     border: 1px #ccc solid;
     padding: 10px;
 }
