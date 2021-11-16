@@ -2,3 +2,19 @@
     display: flex;
 }
 
+.container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.box-1{
+flex:1;
+}
+
+.box-2{
+flex:1;
+}
+
+.box-3{
+flex: 1;
+}
