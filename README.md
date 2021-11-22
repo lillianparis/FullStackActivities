@@ -1,2 +1,2 @@
-# d3andjson
+# Activities
 Data Visualization Examples. This repository is full of solved and unsolved questions for D3. Further implementations include: a D3 website. 🔆
