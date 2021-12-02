@@ -4,6 +4,7 @@ body{
 
 .card {
     width: 50%;
+    /* height: 450px; */
     background-color: #236AB9;
     box-shadow: 5px 10px #091D34;
     font-family:'Courier New', Courier, monospace;
@@ -19,6 +20,10 @@ body{
 
 h1 {
     color: #236AB9;
+}
+
+.button {
+position: relative;
 }
 
 
