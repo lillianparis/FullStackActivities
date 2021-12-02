@@ -2,6 +2,19 @@ body{
     background-color: #F7E3D4;
 }
 
+.card {
+    width: 50%;
+    background-color: #FC7307;
+    box-shadow: 5px 10px #888888;
+    font-family:'Courier New', Courier, monospace;
+}
+
+form {
+    display: flex;
+    align-self: center;
+}
+
+
 .box {
     /* background-color:#236AB9; */
     width: 500px;
