@@ -2,9 +2,6 @@ body{
     background-color: #F7E3D4;
 }
 
-
-
-
 .background {
     padding-top: 15px;
     height: 250px;
@@ -36,6 +33,11 @@ textarea {
     width: 300px;
 }
 
+@media only screen and (max-width: 840px) {
+    .button {
+        padding: 20px;
+    }
+}
 
 @media only screen and (max-width: 840px) {
     body {
@@ -45,8 +47,8 @@ textarea {
 
 @media only screen and (max-width: 840px) {
  .background {
-        height: 200px;
-        width: 250px;
+        height: 100px;
+        width: 150px;
     }
 }
 
@@ -54,6 +56,20 @@ textarea {
 @media screen and (max-width: 840px) {
     h1 {
         color: #FC7307;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .radio, .check1 {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #subject {
+        width: 150px;
+        height: 100px;
     }
 }
 
