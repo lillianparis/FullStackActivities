@@ -11,10 +11,12 @@
 
 <body>
     <center>
-        <h1>Survey Form: Tell us how we did!</h1>
+        <!-- Title -->
+        <h1>Web Developer Survey Form</h1>
+
 
         <div class="card">
-
+            <img class="background" src="background.img.jpg" alt="Image of office setting">
             <div class="firstname">
                 <h2>First Name:</h2>
                 <input type="text" id="firstname">
@@ -23,26 +25,55 @@
             <div class="lastname">
                 <h2>Last Name:</h2>
                 <input type="text" id="lastname">
+            </div><br><br>
+
+            <!-- Date input -->
+            <div class="date">
+                <label for="date">Today's Date:</label><br><br>
+                <input type="date" id="date" name="trip-start" value="2021-12-03">
             </div>
 
+            <!-- Multiple choice Questions -->
             <div class="picker">
-                <p>How do you think we did?</p>
-                  <input type="radio" id="html" name="fav_language" value="HTML" />  
-                <label for="html">Excellent</label><br />
-                  <input type="radio" id="css" name="fav_language" value="CSS" />  
-                <label for="css">Good</label><br />
-                <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-                  <label for="javascript">Unsatisfactory</label>
+                <p>How long have you been in Web Development?</p>
+                  <input type="radio" id="1" name="fav_language" />  
+                <label for="1year">1 Year</label><br />
+                  <input type="radio" id="2" name="fav_language" />  
+                <label for="2year">2 Years</label><br />
+                <input type="radio" id="3" name="fav_language" />
+                  <label for="3year">3 Years</label>
+                <input type="radio" id="4" name="fav_language" />
+                  <label for="4year">4 Years +</label>
+            </div>
+            <!-- Multiple choice checkbox -->
+            <div class="checkbox">
+                <p>What languages are you framiliar with?</p>
+                <input type="checkbox" id="check1">
+                <label for="1"> HTML (Hypertext Markup Language)</label><br>
+                <input type="checkbox" id="check2">
+                <label for="2"> CSS (Cascading Stylesheets)</label><br>
+                <input type="checkbox" id="check3">
+                <label for="3"> Javascript</label><br><br>
             </div>
 
+            <!-- Open ended Qestions -->
             <div class="write">
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" style="height:200px, width:200px" placeholder="Write something about your experience..."></textarea>
+                <label for="subject">What Inpired you to become a Developer?</label><br><br>
+                <textarea id="subject" name="subject"
+                    placeholder="Write something about your experience..."></textarea><br><br>
+            </div>
+
+            <!-- The Select Element -->
+            <div class="selector">
+
             </div>
 
             <div class="button">
                 <button type="submit">Submit</button>
             </div>
+
+            <p>@2021 copywright</p>
+            
         </div>
 
 

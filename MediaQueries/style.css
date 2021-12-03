@@ -2,6 +2,12 @@ body{
     background-color: #F7E3D4;
 }
 
+.background {
+    padding-top: 15px;
+    height: 250px;
+    width:470px;
+}
+
 .card {
     width: 50%;
     /* height: 450px; */
@@ -22,9 +28,10 @@ h1 {
     color: #236AB9;
 }
 
-/* .button {
-position: relative;
-} */
+textarea {
+    height: 100px;
+    width: 300px;
+}
 
 
 @media only screen and (max-width: 840px) {
