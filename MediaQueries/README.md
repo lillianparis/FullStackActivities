@@ -19,6 +19,6 @@
 
 - Set background color to change when the page reaches (max-width: 840px)
 - Change the title color/font for mobile mode
-- 
+
 
 ### Make sure to save all of your work for this assigment. Throughout the course we will be adding additional pieces to this page, until you have a fully functional survey page.

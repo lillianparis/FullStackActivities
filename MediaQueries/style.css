@@ -2,6 +2,9 @@ body{
     background-color: #F7E3D4;
 }
 
+
+
+
 .background {
     padding-top: 15px;
     height: 250px;
@@ -37,6 +40,13 @@ textarea {
 @media only screen and (max-width: 840px) {
     body {
         background-color: #1461B8;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+ .background {
+        height: 200px;
+        width: 250px;
     }
 }
 
