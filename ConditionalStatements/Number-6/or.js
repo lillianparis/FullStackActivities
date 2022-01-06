@@ -4,6 +4,7 @@
 let timmyIsPaying = true;
 let isSale = false;
 
+// If one or both are true then 'if' statement will execute
 if (timmyIsPaying || isSale) {
   console.log("Tommy gets a free lunch paid for by Timmy");
 } else {

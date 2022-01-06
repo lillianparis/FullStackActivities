@@ -1,6 +1,6 @@
-const timmyIsPaying = true;
-const isSale = false;
-
+let timmyIsPaying = true;
+let isSale = false;
+// The NOT operator makes timmyIsPaying 'false' instead of true
 if (!timmyIsPaying || isSale) {
   console.log("Tommy gets a free lunch paid for by Timmy");
 } else {

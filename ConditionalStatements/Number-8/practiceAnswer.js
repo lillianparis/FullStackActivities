@@ -12,8 +12,8 @@ else if (anotherCondition) {
 else if (yetAnotherCondition) {
     statement
 }
-else 
-statement
+else
+    statement
 
 // Setting the hour
 let hour = 10;
@@ -26,8 +26,8 @@ if (hour >= 6 && hour < 12) {
 
 // If the if statement isn't true, THEN if the hour is greater than or equal to 12, AND less than 18 then Good afternoon
 else if (hour >= 12 && hour < 18) {
-   console.log('Good afternoon');
+    console.log('Good afternoon');
 }
 // If neither conditions are true. Then automatically set to Good evening.
-else 
-console.log('Good evening');
+else
+    console.log('Good evening');
