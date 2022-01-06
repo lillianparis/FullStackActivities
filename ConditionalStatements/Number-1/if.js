@@ -1,11 +1,11 @@
-// If the user likes Food, we run the following block of ConvolverNode.
-if (confirmFood) {
-    alert("You like ") + sushiType + "!'"
-};
+// Here is a simple 'if' statememnt.
+// Copy and paste into the console to see the magic
+// Why is there an 'undefined' when I set the whisp to a number lower than 18?
 
-let age = 20;
+let wisp = 24
 
-if (age > 18) {
-  alert ("Qualifies for Drivers Liscence")
-    }
+if (wisp > 18) {
+console.log('Wisp is an adult')
+}
+
     
