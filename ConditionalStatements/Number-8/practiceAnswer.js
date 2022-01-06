@@ -1,5 +1,5 @@
 // Hour
-// If hour is between 6 am and 12 pm: Good Morning!
+// If the hour is between 6 am and 12 pm: Good Morning!
 // If it is between 12pm and 6pm: Good Afternoon!
 // Otherwise: Good Evening!
 
@@ -28,6 +28,6 @@ if (hour >= 6 && hour < 12) {
 else if (hour >= 12 && hour < 18) {
    console.log('Good afternoon');
 }
-// If nether conditions are true. Then automatically set to Good evening.
+// If neither conditions are true. Then automatically set to Good evening.
 else 
 console.log('Good evening');
