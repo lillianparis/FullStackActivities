@@ -4,7 +4,7 @@
 
 let wisp = 24
 
-if (wisp > 18) {
+if (wisp >= 18) {
 console.log('Wisp is an adult')
 }
 
