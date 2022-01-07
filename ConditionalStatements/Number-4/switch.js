@@ -25,16 +25,16 @@ switch (pet) {
   case "pelican":
     console.log("Pelicans name Gulliver");
     break;
-  case "Penguin":
+  case "penguin":
     console.log("Penguins name formal-chicken");
     break;
-  case "Lobster":
+  case "lobster":
     console.log("Lobsters name dragon-shrimp");
     break;
   case "snake":
     console.log("Snakes name nope-rope");
     break;
-  case "Walrus":
+  case "walrus":
     console.log("Walrus’ name floppy-potato");
     break;
   default:
