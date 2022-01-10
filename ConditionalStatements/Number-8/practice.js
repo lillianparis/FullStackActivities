@@ -1,4 +1,4 @@
-// Hour
+// If/Else-if/Else Activity
 // If hour is between 6 am and 12 pm: Good Morning!
 // If it is between 12pm and 6pm: Good Afternoon!
 // Otherwise: Good Evening!

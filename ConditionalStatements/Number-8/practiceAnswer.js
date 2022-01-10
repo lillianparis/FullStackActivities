@@ -18,7 +18,7 @@ else
 // Setting the hour
 let hour = 10;
 
-// If the hour is greater than or equal to 6, AND less than or equal than 12, THEN Good morning
+// If the hour is greater than or equal to 6, AND less than or equal to 12, THEN Good morning
 
 if (hour >= 6 && hour < 12) {
     console.log('Good morning');
@@ -29,5 +29,6 @@ else if (hour >= 12 && hour < 18) {
     console.log('Good afternoon');
 }
 // If neither conditions are true. Then automatically set to Good evening.
-else
+else{
     console.log('Good evening');
+}
